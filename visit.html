@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Visit — Fig &amp; Filter</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Literata:ital,wght@0,600;0,700;1,500&family=Hanken+Grotesk:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="logo" href="index.html">Fig &amp; Filter</a>
+      <button class="nav-toggle" aria-expanded="false" aria-controls="primary-nav">
+        <span class="icon-bars" aria-hidden="true"></span>
+        Menu
+      </button>
+      <nav class="primary-nav" id="primary-nav" aria-label="Primary">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="menu.html">Menu</a></li>
+          <li><a href="catering.html">Catering</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="visit.html" aria-current="page">Visit</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="section">
+      <div class="container">
+        <h1>Visit</h1>
+
+        <div class="visit-hero">
+          <div>
+            <address class="visit-address">
+              <strong>Fig &amp; Filter</strong>
+              8 Chalk Lane (corner of Weaver Street)
+            </address>
+            <p>
+              <a class="btn btn-primary" href="https://www.google.com/maps/search/?api=1&query=8+Chalk+Lane+corner+of+Weaver+Street">Get directions →</a>
+            </p>
+          </div>
+          <img src="images/storefront.jpg" alt="The Fig & Filter corner shopfront with deep-green window frames and a pavement table">
+        </div>
+      </div>
+    </section>
+
+    <section class="section" style="padding-top: 0;">
+      <div class="container">
+        <h2>Opening hours</h2>
+        <table class="hours-table">
+          <thead>
+            <tr>
+              <th scope="col">Day</th>
+              <th scope="col">Hours</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Monday</td>
+              <td>Closed</td>
+            </tr>
+            <tr class="today">
+              <td>Tuesday – Friday</td>
+              <td>7:30am – 5:00pm</td>
+            </tr>
+            <tr>
+              <td>Saturday – Sunday</td>
+              <td>8:00am – 5:00pm</td>
+            </tr>
+          </tbody>
+        </table>
+        <p class="hours-note">Kitchen closes 3:30pm daily. Public holidays: check our door or email us.</p>
+
+        <h2 style="margin-top: var(--stack-lg);">How to find us</h2>
+        <p>We're the corner shopfront with the deep-green window frames, halfway down Chalk Lane, with the fig tree visible through the side gate. If you can see the takeaway menu lettered on the glass, you're in the right place.</p>
+
+        <h2 style="margin-top: var(--stack-lg);">Getting here</h2>
+        <ul class="getting-here-list">
+          <li><strong>On foot or bike:</strong> bike racks are directly outside; the courtyard has space for prams.</li>
+          <li><strong>By train:</strong> eight minutes' walk from Weaver Street station — exit toward the market, then second left.</li>
+          <li><strong>By bus:</strong> routes 14 and 62 stop at the top of Chalk Lane.</li>
+          <li><strong>By car:</strong> street parking on Weaver Street is free for the first hour; there's a paid car park behind the market, four minutes' walk.</li>
+        </ul>
+
+        <h2 style="margin-top: var(--stack-lg);">Contact</h2>
+        <ul class="contact-list">
+          <li>Email: <a href="mailto:hello@figandfilter.example">hello@figandfilter.example</a></li>
+          <li>Phone: <a href="tel:+15550142286">(555) 014-2286</a></li>
+          <li>Catering enquiries: <a href="mailto:catering@figandfilter.example">catering@figandfilter.example</a></li>
+        </ul>
+
+        <h2 style="margin-top: var(--stack-lg);">Good to know</h2>
+        <p>The courtyard is dog-friendly; inside is not (sorry — kitchen rules). Big tables can be reserved for groups of six or more by email.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <p class="footer-brand">Fig &amp; Filter</p>
+        <address class="footer-address">
+          8 Chalk Lane (corner of Weaver Street)<br>
+          <a href="mailto:hello@figandfilter.example">hello@figandfilter.example</a><br>
+          <a href="tel:+15550142286">(555) 014-2286</a>
+        </address>
+      </div>
+      <nav aria-label="Footer">
+        <ul class="footer-nav">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="menu.html">Menu</a></li>
+          <li><a href="catering.html">Catering</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="visit.html">Visit</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="container footer-bottom">
+      Fig &amp; Filter · 8 Chalk Lane
+    </div>
+  </footer>
+
+  <script src="nav.js"></script>
+</body>
+</html>
